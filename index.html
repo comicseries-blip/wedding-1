@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Undangan Pernikahan | Alexander & Olivia</title>
+
+    <meta name="description" content="Undangan Pernikahan Alexander & Olivia" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section class="opening" id="opening">
+        <div class="opening-overlay"></div>
+
+        <div class="petals"></div>
+
+        <div class="opening-content">
+            <p class="small-title">UNDANGAN PERNIKAHAN</p>
+
+            <h1>
+                Alexander
+                <span>&</span>
+                Olivia
+            </h1>
+
+            <p class="opening-date">12 • 12 • 2026</p>
+
+            <div class="guest-box">
+                <p>Kepada Yth.</p>
+
+                <h2 id="guestName">Tamu Undangan</h2>
+
+                <span> Anda diundang untuk merayakan hari bahagia kami </span>
+            </div>
+
+            <button class="open-button" id="openInvitation">
+                <span>♡</span>
+                Buka Undangan
+            </button>
+        </div>
+    </section>
+
+    <main id="mainContent" class="hidden">
+        <nav class="navbar">
+            <a href="#home" class="logo"> A <span>&</span> O </a>
+
+            <div class="nav-links">
+                <a href="#home">Beranda</a>
+                <a href="#couple">Pasangan</a>
+                <a href="#story">Cerita</a>
+                <a href="#event">Acara</a>
+                <a href="#gallery">Galeri</a>
+            </div>
+
+            <button class="music-button" id="musicButton">♫</button>
+        </nav>
+
+        <section class="hero section" id="home">
+            <div class="hero-image"></div>
+            <div class="floating-hearts"></div>
+
+            <div class="hero-content">
+                <p class="eyebrow">KAMI AKAN MENIKAH</p>
+
+                <h1>
+                    Alexander
+                    <span>&</span>
+                    Olivia
+                </h1>
+
+                <p>12 Desember 2026</p>
+
+                <div class="scroll-down">↓</div>
+            </div>
+        </section>
+
+        <section class="quote section reveal">
+            <div class="container narrow">
+                <span class="quote-mark">“</span>
+
+                <p>
+                    Dan di antara tanda-tanda kebesaran-Nya ialah Dia menciptakan
+                    pasangan-pasangan untukmu dari jenismu sendiri, agar kamu merasa
+                    tenteram kepadanya.
+                </p>
+
+                <small> — QS. Ar-Rum : 21 </small>
+            </div>
+        </section>
+
+        <section class="couple section" id="couple">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">KEDUA MEMPELAI</p>
+
+                    <h2>Mempelai Pria & Wanita</h2>
+                </div>
+
+                <div class="couple-grid">
+                    <article class="person reveal">
+                        <div class="person-image">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=75"
+                                alt="Groom" loading="lazy" />
+                        </div>
+
+                        <div class="person-info">
+                            <h3>Alexander William</h3>
+
+                            <p>Putra pertama dari</p>
+
+                            <strong> Bapak William & Ibu Maria </strong>                        </div>
+                    </article>
+
+                    <div class="ampersand reveal">&</div>
+
+                    <article class="person reveal">
+                        <div class="person-image">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=700&q=75"
+                                alt="Bride" loading="lazy" />
+                        </div>
+
+                        <div class="person-info">
+                            <h3>Olivia Grace</h3>
+
+                            <p>Putri pertama dari</p>
+
+                            <strong> Bapak Jonathan & Ibu Sophia </strong>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="countdown-section section">
+            <div class="container narrow">
+                <div class="section-heading light reveal">
+                    <p class="eyebrow">SIMPAN TANGGALNYA</p>
+
+                    <h2>Hari Bahagia Kami</h2>
+                </div>
+
+                <div class="countdown reveal">
+                    <div class="time-box">
+                        <strong id="days">00</strong>
+                        <span>Hari</span>
+                    </div>
+
+                    <div class="time-box">
+                        <strong id="hours">00</strong>
+                        <span>Jam</span>
+                    </div>
+
+                    <div class="time-box">
+                        <strong id="minutes">00</strong>
+                        <span>Menit</span>
+                    </div>
+
+                    <div class="time-box">
+                        <strong id="seconds">00</strong>
+                        <span>Detik</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="story section" id="story">
+            <div class="container narrow">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">PERJALANAN KAMI</p>
+
+                    <h2>Kisah Cinta</h2>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item reveal">
+                        <span class="timeline-year"> 2022 </span>
+
+                        <div>
+                            <h3>Pertemuan Pertama</h3>
+
+                            <p>
+                                Pertama kali kami bertemu dalam sebuah acara sederhana. Tidak
+                                pernah menyangka pertemuan tersebut menjadi awal perjalanan
+                                panjang kami.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item reveal">
+                        <span class="timeline-year"> 2023 </span>
+
+                        <div>
+                            <h3>Jatuh Cinta</h3>
+
+                            <p>
+                                Seiring waktu kami mulai mengenal satu sama lain lebih dalam
+                                dan menyadari bahwa kami ingin berjalan bersama.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item reveal">
+                        <span class="timeline-year"> 2025 </span>
+
+                        <div>
+                            <h3>Lamaran</h3>
+
+                            <p>
+                                Dengan penuh keyakinan, kami memutuskan untuk membawa hubungan
+                                ini menuju jenjang yang lebih serius.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item reveal">
+                        <span class="timeline-year"> 2026 </span>
+
+                        <div>
+                            <h3>Selamanya Dimulai</h3>
+
+                            <p>
+                                Hari dimana dua hati menjadi satu dan memulai perjalanan baru
+                                sebagai keluarga.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- EVENT -->
+
+        <section class="event section" id="event">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">SILAKAN DATANG</p>
+
+                    <h2>Rangkaian Acara</h2>
+                </div>
+
+                <div class="event-grid">
+                    <article class="event-card reveal">
+                        <span class="event-icon"> ♡ </span>
+
+                        <p class="event-label">AKAD NIKAH</p>
+
+                        <h3>Sabtu</h3>
+
+                        <strong> 12 Desember 2026 </strong>
+
+                        <p>09.00 — 10.30 WITA</p>
+
+                        <hr />
+
+                        <h4>The Grand Garden</h4>
+
+                        <p>
+                            Jl. Contoh Bahagia No. 123
+                            <br />
+                            Makassar, Indonesia
+                        </p>
+
+                        <a href="https://www.google.com/maps" target="_blank" class="outline-button">
+                            Lihat Lokasi
+                        </a>
+                    </article>
+
+                    <article class="event-card reveal">
+                        <span class="event-icon"> ✦ </span>
+
+                        <p class="event-label">RESEPSI</p>
+
+                        <h3>Sabtu</h3>
+
+                        <strong> 12 Desember 2026 </strong>
+
+                        <p>18.00 — 21.00 WITA</p>
+
+                        <hr />
+
+                        <h4>The Grand Garden</h4>
+
+                        <p>
+                            Jl. Contoh Bahagia No. 123
+                            <br />
+                            Makassar, Indonesia
+                        </p>
+
+                        <a href="https://www.google.com/maps" target="_blank" class="outline-button">
+                            Lihat Lokasi
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALLERY -->
+
+        <section class="gallery section" id="gallery">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">MOMEN KAMI</p>
+
+                    <h2>Galeri Foto</h2>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item gallery-large reveal"
+                        data-image="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=75">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=700&q=70"
+                            alt="Wedding moment" loading="lazy" />
+                    </div>
+
+                    <div class="gallery-item reveal"
+                        data-image="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1200&q=75">
+                        <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=600&q=70"
+                            alt="Wedding couple" loading="lazy" />
+                    </div>
+
+                    <div class="gallery-item reveal"
+                        data-image="https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&w=1200&q=75">
+                        <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&w=600&q=70"
+                            alt="Wedding flowers" loading="lazy" />
+                    </div>
+
+                    <div class="gallery-item reveal"
+                        data-image="https://images.unsplash.com/photo-1544078751-58fee2d8a03b?auto=format&fit=crop&w=1200&q=75">
+                        <img src="https://images.unsplash.com/photo-1544078751-58fee2d8a03b?auto=format&fit=crop&w=600&q=70"
+                            alt="Wedding photo" loading="lazy" />
+                    </div>
+
+                    <div class="gallery-item reveal"
+                        data-image="https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?auto=format&fit=crop&w=1200&q=75">
+                        <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?auto=format&fit=crop&w=600&q=70"
+                            alt="Wedding ceremony" loading="lazy" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LIGHTBOX -->
+
+        <div class="lightbox" id="lightbox">
+            <button class="lightbox-close" id="lightboxClose">×</button>
+
+            <img id="lightboxImage" src="" alt="Gallery preview" />
+        </div>
+
+        <!-- GIFT -->
+
+        <section class="gift section">
+            <div class="container narrow">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">KADO PERNIKAHAN</p>
+
+                    <h2>Kehadiran Anda Sudah Cukup</h2>
+
+                    <p>
+                        Bagi keluarga dan sahabat yang ingin memberikan tanda kasih, dapat
+                        melalui informasi berikut.
+                    </p>
+                </div>
+
+                <div class="bank-card reveal">
+                    <div>
+                        <small> BANK BCA </small>
+
+                        <h3 id="accountNumber">1234567890</h3>
+
+                        <p>Alexander William</p>
+                    </div>
+
+                    <button class="copy-button" id="copyAccount">Salin</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- RSVP -->
+
+        <section class="rsvp section">
+            <div class="container narrow">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">KONFIRMASI KEHADIRAN</p>
+
+                    <h2>Apakah Anda Akan Hadir?</h2>
+
+                    <p>Konfirmasi kehadiran Anda melalui WhatsApp.</p>
+                </div>
+
+                <div class="rsvp-buttons reveal">
+                    <a href="#" class="rsvp-button" id="rsvpYes"> ✓ Akan Hadir </a>
+
+                    <a href="#" class="rsvp-button secondary" id="rsvpNo">
+                        × Belum Bisa Hadir
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CLOSING -->
+
+        <section class="closing section">
+            <div class="petals petals-light"></div>
+
+            <div class="container narrow">
+                <p class="eyebrow">SAMPAI JUMPA DI SANA</p>
+
+                <h2>
+                    Alexander
+                    <span>&</span>
+                    Olivia
+                </h2>
+
+                <p>
+                    Terima kasih atas doa dan kasih sayang yang diberikan kepada kami.
+                </p>
+
+                <div class="closing-heart">♡</div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+
+        <footer>
+            <p>Dibuat dengan ♡ untuk Alexander & Olivia</p>
+        </footer>
+    </main>
+
+    <!-- AUDIO -->
+
+    <audio id="weddingMusic" loop>
+        <source src="assets/music.mp3" type="audio/mpeg" />
+    </audio>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
